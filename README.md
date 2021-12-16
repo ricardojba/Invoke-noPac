@@ -2,7 +2,7 @@
 
 ## The .Net assembly is based on my fork https://github.com/ricardojba/noPac that has a few code changes to improve upon the original.
 
-.Net Assembly loader for the CVE-2021-42287/CVE-2021-42278 Scanner & Exploiter (https://github.com/cube0x0/noPac), PowerSharpPack (https://github.com/S3cur3Th1sSh1t/PowerSharpPack) style.
+[PowerSharpPack](https://github.com/S3cur3Th1sSh1t/PowerSharpPack) style .Net Assembly loader for the CVE-2021-42287-CVE-2021-42278 Scanner & Exploiter [noPac](https://github.com/ricardojba/noPac).
 
 Usage:
 
@@ -22,3 +22,7 @@ Invoke-noPac
 Invoke-noPac -Command "scan -domain htb.local -user domain_user -pass 'Password123!'"
 Invoke-noPac -Command "scan -domain htb.local -user domain_user -pass 'Password123!' /enctype rc4"
 ```
+
+## Credits
+
+[cube0x0](https://twitter.com/cube0x0) for the original [noPac](https://github.com/cube0x0/noPac) code.
