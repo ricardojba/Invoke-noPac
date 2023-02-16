@@ -2,7 +2,7 @@
 
 ## The .Net assembly is based on my fork https://github.com/ricardojba/noPac that has a few code changes to improve upon the original.
 
-[PowerSharpPack](https://github.com/S3cur3Th1sSh1t/PowerSharpPack) style .Net Assembly loader for the [CVE-2021-42287 - CVE-2021-42278] Scanner & Exploiter [noPac](https://github.com/ricardojba/noPac).
+[PowerSharpPack](https://github.com/S3cur3Th1sSh1t/PowerSharpPack) style .Net Assembly loader for the [CVE-2021-42287 - CVE-2021-42278] Scanner & Exploit [noPac](https://github.com/ricardojba/noPac).
 
 Usage:
 
